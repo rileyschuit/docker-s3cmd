@@ -1,6 +1,7 @@
 FROM hypriot/rpi-alpine 
 
-RUN apk update
+RUN buildDeps="gcc g++ git mercurial make automake autoconf python-dev openssl-dev libffi-dev musl-dev" \
+  && apk --update add $buildDeps
 RUN apk add python py-pip py-setuptools git ca-certificates
 RUN pip install python-dateutil
 
