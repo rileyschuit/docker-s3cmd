@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM hypriot/rpi-alpine 
 
 RUN apk update
 RUN apk add python py-pip py-setuptools git ca-certificates
