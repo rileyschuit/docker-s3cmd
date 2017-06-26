@@ -1,17 +1,14 @@
-docker-s3cmd
-============
-[![GitHub forks](https://img.shields.io/github/forks/sekka1/docker-s3cmd.svg)](https://github.com/sekka1/docker-s3cmd/network)
-[![GitHub stars](https://img.shields.io/github/stars/sekka1/docker-s3cmd.svg)](https://github.com/sekka1/docker-s3cmd/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/sekka1/docker-s3cmd.svg)](https://github.com/sekka1/docker-s3cmd/issues)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/sekka1/docker-s3cmd.svg?style=social)](https://twitter.com/intent/tweet?text=S3cmd%20in%20a%20%40Docker%20container:&url=https://github.com/sekka1/docker-s3cmd)
-[![Docker Pulls](https://img.shields.io/docker/pulls/garland/docker-s3cmd.svg)](https://hub.docker.com/r/garland/docker-s3cmd/)
-[![Docker Stars](https://img.shields.io/docker/stars/garland/docker-s3cmd.svg)](https://hub.docker.com/r/garland/docker-s3cmd/)
+[![Build Status](https://travis-ci.org/rileyschuit/rpi-docker-s3cmd.svg?branch=master)](https://travis-ci.org/rileyschuit/rpi-docker-s3cmd)
 
 
-# Supported tags and respective `Dockerfile` links
-
-- [`0.1` (*0.1/Dockerfile*)](https://github.com/sekka1/docker-s3cmd/blob/master/0.1/Dockerfile)
-
+# Docker s3cmd to run on a Raspberry Pi
+This is a Dockerfile to set up "s3cmd"
+### Build from docker file:
+```
+git clone https://github.com/rileyschuit/rpi-docker-s3cmd.git
+cd rpi-docker-s3cmd
+docker build -t rpi-docker-s3cmd .
+```
 
 # Description
 
